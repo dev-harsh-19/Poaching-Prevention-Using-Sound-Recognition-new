@@ -1,0 +1,46 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1F2D"/>
+      <stop offset="1" stop-color="#081521"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="120" y1="80" x2="1470" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E2740" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#0B1628" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="200" y1="180" x2="980" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="0.48" stop-color="#6B8CFF"/>
+      <stop offset="1" stop-color="#7AF0C5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 118) rotate(120) scale(380 460)">
+      <stop stop-color="#3EE4B0" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#3EE4B0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <circle cx="1230" cy="120" r="330" fill="url(#glow)"/>
+  <path d="M101 110C205 58 322 38 433 63C573 93 668 146 774 136C876 126 961 63 1090 74C1186 81 1296 133 1411 173V372C1298 335 1175 314 1064 320C929 327 837 392 717 396C590 401 494 354 366 333C273 317 194 329 101 372V110Z" fill="url(#panel)" opacity="0.6"/>
+
+  <g opacity="0.9">
+    <circle cx="197" cy="173" r="72" fill="#112B42" stroke="#4FD1FF" stroke-width="2"/>
+    <path d="M170 190C176 180 188 174 198 175C214 176 226 186 230 198C234 211 228 226 214 233C201 241 180 240 168 232C155 224 151 209 160 196C162 193 165 191 170 190Z" fill="#7AF0C5" opacity="0.8"/>
+    <path d="M192 152V134M192 208V200M154 176H136M228 176H246M160 160L148 148M235 160L247 148M160 192L148 204M235 192L247 204" stroke="#4FD1FF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="330" y="132" width="820" height="220" rx="30" fill="#0A1B2F" fill-opacity="0.5" stroke="#25466A"/>
+    <text x="380" y="240" fill="#F5FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="92" font-weight="700">EcoGuard</text>
+    <text x="380" y="303" fill="#9AC7FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="2">POACHING PREVENTION USING SOUND RECOGNITION</text>
+    <rect x="382" y="336" width="310" height="8" rx="4" fill="url(#accent)"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="1280" cy="182" r="112" fill="#0F1F35" stroke="#3EE4B0" stroke-width="2"/>
+    <path d="M1262 224L1280 108L1291 153L1344 158L1280 224L1262 224Z" fill="#7AF0C5" opacity="0.7"/>
+    <path d="M1235 237H1324" stroke="#3EE4B0" stroke-width="8" stroke-linecap="round" opacity="0.9"/>
+    <path d="M1226 255H1333" stroke="#4FD1FF" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

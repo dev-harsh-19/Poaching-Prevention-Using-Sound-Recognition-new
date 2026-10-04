@@ -1,0 +1,83 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091821"/>
+      <stop offset="1" stop-color="#0E1B2B"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4FD1FF"/>
+      <stop offset="1" stop-color="#7AF0C5"/>
+    </linearGradient>
+    <linearGradient id="danger" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF6B6B"/>
+      <stop offset="1" stop-color="#FF9A6C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg2)"/>
+
+  <text x="700" y="90" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Project Architecture</text>
+  <text x="700" y="132" text-anchor="middle" fill="#9FC4E9" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="500">Real-time acoustic threat detection pipeline</text>
+
+  <g>
+    <rect x="110" y="210" width="200" height="140" rx="28" fill="#0D2438" stroke="#4FD1FF" stroke-width="2"/>
+    <text x="210" y="270" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Microphone</text>
+    <text x="210" y="310" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Live Audio</text>
+  </g>
+
+  <g>
+    <rect x="420" y="180" width="240" height="200" rx="28" fill="#0D2438" stroke="#6B8CFF" stroke-width="2"/>
+    <text x="540" y="245" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Browser App</text>
+    <text x="540" y="290" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">React + Vite</text>
+    <text x="540" y="330" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Audio Stream</text>
+  </g>
+
+  <g>
+    <rect x="760" y="180" width="260" height="200" rx="28" fill="#0D2438" stroke="#7AF0C5" stroke-width="2"/>
+    <text x="890" y="245" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">TensorFlow.js</text>
+    <text x="890" y="290" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">YAMNet Model</text>
+    <text x="890" y="330" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Feature Extraction</text>
+  </g>
+
+  <g>
+    <rect x="1090" y="180" width="220" height="200" rx="28" fill="#0D2438" stroke="#FF8A65" stroke-width="2"/>
+    <text x="1200" y="245" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Classifier</text>
+    <text x="1200" y="290" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Gunshot</text>
+    <text x="1200" y="328" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Chainsaw</text>
+  </g>
+
+  <g>
+    <path d="M310 280H420" stroke="url(#primary)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M660 280H760" stroke="url(#primary)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1020 280H1090" stroke="url(#primary)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M540 380V470H1030V520" stroke="#4FD1FF" stroke-width="5" stroke-dasharray="10 12" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="310" y="520" width="250" height="170" rx="26" fill="#112E3D" stroke="#4FD1FF" stroke-width="2"/>
+    <text x="435" y="585" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Threat Alert</text>
+    <text x="435" y="628" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Live confidence score</text>
+    <text x="435" y="660" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">UI warning</text>
+  </g>
+
+  <g>
+    <rect x="620" y="520" width="250" height="170" rx="26" fill="#112E3D" stroke="#7AF0C5" stroke-width="2"/>
+    <text x="745" y="585" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">GPS &amp; Logs</text>
+    <text x="745" y="628" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Location + history</text>
+    <text x="745" y="660" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">incident tracking</text>
+  </g>
+
+  <g>
+    <rect x="930" y="520" width="260" height="170" rx="26" fill="#112E3D" stroke="#FF8A65" stroke-width="2"/>
+    <text x="1060" y="585" text-anchor="middle" fill="#F4FAFF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Visualization</text>
+    <text x="1060" y="628" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Spectrogram</text>
+    <text x="1060" y="660" text-anchor="middle" fill="#A7C0E7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Radar &amp; waveform</text>
+  </g>
+
+  <g>
+    <path d="M1200 380V520" stroke="url(#danger)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M435 380V520" stroke="url(#primary)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M745 380V520" stroke="url(#primary)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1060 380V520" stroke="url(#primary)" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
