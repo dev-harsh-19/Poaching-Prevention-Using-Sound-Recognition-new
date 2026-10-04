@@ -2,6 +2,8 @@
 
 ![EcoGuard banner](assets/eco-guard-banner.svg)
 
+Live demo: https://poaching-prevention-using-sound-rec.vercel.app/
+
 A real-time sound classification web app designed to detect suspicious acoustic events such as gunshots and chainsaw activity in protected areas. The app listens to live microphone input, analyzes the audio stream in-browser, and highlights potential threats with confidence scores, live spectrogram visualization, geolocation, and incident history.
 
 ## Project Architecture
